@@ -8,7 +8,7 @@
 }
 .sidemenu{
     position: fixed;
-    width: 200px;
+    width: 250px;
     background-color: black;
 }
 .options{
@@ -32,12 +32,11 @@
     padding-inline-start: 40px;
 }
 .links ul{
-    margin-top: 550px;
+    margin-top: 500px;
     margin-left: 25px;
 }
 .links li{
     display: inline;
-    float: inline-start;
     margin-left: 2px;
 }
 .links a{
