@@ -30,14 +30,14 @@ background-size:cover;
 	width: 120px;
 	text-align: center;
 	text-decoration: none;
-	padding: 20px 0;
+	padding-top: 5px;
 	color: #eee;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 13px;
     padding-inline-start: 40px;
 }
 .links ul{
-    margin-top: 700px;
+    margin-top: 500px;
     margin-left: 25px;
 }
 .links li{
@@ -49,7 +49,7 @@ background-size:cover;
     display: inline-flex;
 }
 .button{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .bb{
     height: 50px;
@@ -58,9 +58,3 @@ background-size:cover;
     font-size: 25px;
     background-color: rgb(214, 108, 108);
 }
-/* body{
-    position: relative;
-    background-image: url(body.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
