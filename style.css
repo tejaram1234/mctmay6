@@ -60,3 +60,48 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.heding{
+    padding-top: 100px;
+    padding-left: 120px;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #eee;
+}
+.heding1{
+    padding-left: 120px;
+    font-size: 80px;
+    font-family: sans-serif;
+    color: #eee;
+}
+.subhead{
+    padding-left: 120px;
+    font-size: 20px;
+    color: white;
+}
+.inputtext{
+    height: 60px;
+    width: 400px;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.subscribe{
+    height: 60px;
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 200;
+    background-color: rgb(239, 43, 43);
+}
+.loc{
+    margin-left: 120px;
+    padding-top: 15px;
+}
+.location{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
