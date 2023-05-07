@@ -53,15 +53,10 @@
     font-size: 25px;
     background-color: rgb(214, 108, 108);
 }
-body{
+.reminingpart{
     height: 760px;
     margin-left: 200px;
-    background-image: url("body.png");
-    background-size: cover;
+    background-image: url(background1.png);
     background-repeat: no-repeat;
-}
-.stamp{
-    margin-left: 1550px;
-    margin-top: 60px;
-    width: 150px;
+    background-size: cover;
 }
