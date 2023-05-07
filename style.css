@@ -2,9 +2,6 @@
     padding: 0;
     margin: 0;
 }
-body{
-    position: absolute;
-} 
 #logo{
     width: 150px;
     padding-left: 40px;
@@ -57,8 +54,14 @@ body{
     background-color: rgb(214, 108, 108);
 }
 .reminingpart{
+    height: 760px;
     margin-left: 200px;
     background-image: url("body.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+.stamp{
+    margin-left: 1550px;
+    margin-top: 60px;
+    width: 150px;
 }
