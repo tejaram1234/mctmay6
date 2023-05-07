@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#logo{
+    width: 150px;
+    padding-left: 40px;
+}
+.sidemenu{
+    position: fixed;
+    width: 200px;
+    background-color: black;
+}
+.options{
+    margin-top: 80px;
+}
+.opt{
+    display: inline;
+	float: left;
+    color: white;
+
+}
+.options a{
+    display: inline-block;
+	width: 120px;
+	text-align: center;
+	text-decoration: none;
+	padding: 20px 0;
+	color: #eee;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding-inline-start: 40px;
+}
+.links ul{
+    margin-top: 550px;
+    margin-left: 20px;
+}
+.links li{
+    display: inline;
+    float: inline-start;
+    margin-left: 2px;
+}
+.links a{
+    display: inline-flex;
+}
+.button{
+    margin-top: 20px;
+}
+.bb{
+    height: 60px;
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 30px;
+    background-color: rgb(214, 108, 108);
+}
+body{
+    background-image: url(body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
