@@ -2,17 +2,22 @@
     padding: 0;
     margin: 0;
 }
+/* body{
+background-image: url(body.png);
+background-repeat: no-repeat;
+background-size:cover;
+} */
 #logo{
     width: 150px;
     padding-left: 40px;
 }
 .sidemenu{
     position: fixed;
-    width: 20s0px;
+    width: 200px;
     background-color: black;
 }
 .options{
-    margin-top: 80px;
+    margin-top: 60px;
 }
 .opt{
     display: inline;
@@ -28,32 +33,34 @@
 	padding: 20px 0;
 	color: #eee;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     padding-inline-start: 40px;
 }
 .links ul{
-    margin-top: 500px;
+    margin-top: 700px;
     margin-left: 25px;
 }
 .links li{
     display: inline;
-    margin-left: 2px;
+    float: inline-start;
+    margin-left: 4px;
 }
 .links a{
     display: inline-flex;
 }
 .button{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .bb{
-    height: 60px;
+    height: 50px;
     width: 200px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     background-color: rgb(214, 108, 108);
 }
 body{
+    position: relative;
     background-image: url(body.png);
-    background-repeat: no-repeat;
     background-size: cover;
+    background-repeat: no-repeat;
 }
