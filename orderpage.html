@@ -5,27 +5,113 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Order</title>
+    <style>
+        body{
+            background-image: url(bacpi.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .h{
+            height: 580px;
+            width:400px;
+        }
+        .head{
+            background-color: rgb(255, 230, 184);
+        }
+        .head h1{
+            font-size: 20px;
+            font-family: sans-serif;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .head h3{
+            font-size: 15px;
+            font-family: sans-serif;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            color: darkgrey;
+        }
+       .form{
+        background-color: darkgray;
+        opacity: 0.5px;
+        padding-left: 10px;
+        height: 450px;
+        padding-top: 20px;
+     
+        }
+        .ml{
+            margin-top: 40px;
+            font-size: 20px;
+            font-family: sans-serif;
+            padding-bottom: 20px;
+        }
+        #e{
+            height:30px;
+            border-radius: 10px;
+            box-shadow: gray;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #p1,#p2,#p3{
+            height: 30px;
+            width:100px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #r{
+            height:20px;
+            width: 30px;
+            margin-top: 20px;
+        }
+        #l1{
+            font-size: 15px;
+            font-family: sans-serif;
+         
+        }
+        #c{
+            width:20px;
+            height: 15px;
+            margin-top: 15px;
+        }
+        button{
+            width:400px;
+            height:60px;
+            background-color: #ff4f27;
+        }
+        button a{
+            font-size: 30px;
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            font-weight: 600px;
+        }
+    </style>
 </head>
 <body>
+    <div class="h">
+    <div class="head">
+        <h1>WELCOME TO ITALIAN PIZZA!</h1>
+        <h3>we deliver pizza in 40 minutes max.If not-Pizzas on us!</h3>
     <div class="form">
-        <label for="text">Email</label><br>
-        <input type="text" id="email"><br>
-        <label for="text">Phone</label><br>
-       <input type="text" id="p1" > <input type="text" id="p2"> <input type="text" id="p3"><br>
-       <label for="text">Number of slices</label><br>
-       <input type="number" id="numberslice"><br>
-       <label for="text">Pizza Size</label><br>
-       <input type="radio"><label for="text">8-inch</label>
-       <input type="radio"><label for="text">10-inch</label>
-       <input type="radio"><label for="text">12-inch</label>
-       <input type="radio"><label for="text">14-inch</label><br>
-       <label for="text">Toppings</label><br>
-       <input type="checkbox"><label for="text">Pepperoni</label>
-       <input type="checkbox"><label for="text">Onions</label>
-       <input type="checkbox"><label for="text">Mushrooms</label>
-       <input type="checkbox"><label for="text">Sausage</label><br>
-       <input type="checkbox"><label for="text">I agree ti the TERMS AND CONDITIONS</label>
-    </div>
+        <label for="text" class="ml">Email</label><br>
+        <input type="text" id="e"><br>
+        <label for="text"  class="ml">Phone</label><br>
+       <input type="text" id="p1" placeholder="Area" > <input type="text" id="p2" placeholder="Local"> <input type="text" id="p3" placeholder="Local"><br>
+       <label for="text"  class="ml">Number of slices</label><br>
+       <input type="number" id="e"><br>
+       <label for="text"  class="ml">Pizza Size</label><br>
+       <input type="radio" id="r" name="t"><label for="text" id="l1">8-inch</label>
+       <input type="radio" id="r"name="t"><label for="text" id="l1">10-inch</label>
+       <input type="radio" id="r"name="t"><label for="text"  id="l1">12-inch</label>
+       <input type="radio" id="r"name="t"><label for="text"  id="l1">14-inch</label><br>
+       <label for="text"  class="ml">Toppings</label><br>
+       <input type="checkbox" id="c" name="j"><label for="text" id="l2">Pepperoni</label>
+       <input type="checkbox" id="c" name="j"><label for="text" id="l2">Onions</label>
+       <input type="checkbox" id="c" name="j"><label for="text" id="l2">Mushrooms</label>
+       <input type="checkbox" id="c" name="j"><label for="text" id="l2">Sausage</label><br>
+       <input type="checkbox" id="c" name="j1"><label for="text" id="l3">I agree ti the TERMS AND CONDITIONS</label>
+    </div></div></div>
     <div class="ordernow"><button id="ordernow"><a href="ordersuccesspage.html">Order Now</a></button></div>
 </body>
 </html>
