@@ -178,7 +178,6 @@
    visibility: visible;
 }
 .menu{
-    position: absolute;
     height:180px;
     border:2px solid red;
     display: flex; 
