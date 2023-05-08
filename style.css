@@ -177,3 +177,55 @@
 .totalc:hover .h{
    visibility: visible;
 }
+.menu{
+    height:180px;
+    border:2px solid red;
+    display: flex; 
+    background-color: cadetblue;
+}
+.menu li{
+    display: inline;
+    padding-left: 50px;
+    flex-wrap: wrap;
+}
+.menu img{
+    width :150px;
+}
+.menu ul{
+    display: flex;
+align-items: center;
+align-content: center;
+}
+.menu a{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+.menu button{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(240, 86, 59);
+}
+.menu1{
+    padding-left: 500px;
+}
+.poster{
+    height: 250px;
+    background-color: black;
+    margin-top: 50px;
+    color: white;
+}
+.poster h1{
+    padding-left: 700px;
+    font-family: sans-serif;
+    font-size: 60px;
+    padding-top: 10px;
+}
+.poster h3{
+    padding-left: 660px;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
