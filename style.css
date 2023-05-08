@@ -120,6 +120,7 @@
     margin-top: 180px;
     padding-left:40px;
     align-items: center;
+    position: relative;
 }
 .mimg{
     width: 350px;
@@ -146,4 +147,33 @@
     font-family: sans-serif;
     font-weight: 400;
     color: coral;
+}
+.button1{
+    background-color: rgb(239, 43, 43);
+    height: 50px;
+    width:150px;
+}
+.button1  a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.button2 a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.button2{
+    background-color:lightgray;
+    height: 50px;
+    width:150px;
+}
+.h{
+  padding-left: 40px;
+    visibility: hidden;
+}
+.totalc:hover .h{
+   visibility: visible;
 }
